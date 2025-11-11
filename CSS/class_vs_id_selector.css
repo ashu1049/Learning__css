@@ -1,0 +1,14 @@
+.t_color
+{
+    color: red;
+}
+
+#t_color
+{
+    color: blue;
+}
+
+.t_size
+{
+    font-size: 50px;
+}

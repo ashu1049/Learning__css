@@ -1,0 +1,21 @@
+.t_shadow
+{
+    color: greenyellow;
+    font-size: 30;
+    text-shadow: 5px 10px 15px red;
+}
+.b_shadow
+{
+    color: greenyellow;
+    font-size: 30;
+    box-shadow: 5px 10px 15px red;
+}
+.d_shadow
+{
+    filter: drop-shadow(5px 10px 15px red);
+}
+.img_ratio
+{
+    width: 250px;
+    height: 250px;
+}

@@ -1,0 +1,23 @@
+.para1
+{
+    border: 3px solid rgb(200, 194, 194);
+    margin:10px;
+}
+.para2
+{
+    border: 3px solid blue;
+    padding: 40px;
+    margin:60px;
+}
+.para3
+{
+    border: 3px solid aqua;
+    padding:50px 80px 50px 80px;
+    margin:50px 80px 50px 80px;
+}
+.image_box
+{   
+    border:3px solid pink;
+    padding:10px;
+    margin: 50px 380px 50px 300px ;
+}
