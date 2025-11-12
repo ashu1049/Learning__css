@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    background-image: url(../Images/bird.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1
+{
+    color: beige;
+}

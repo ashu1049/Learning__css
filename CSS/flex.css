@@ -1,0 +1,22 @@
+.flex-container
+{
+    
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+
+.flex-items
+{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
