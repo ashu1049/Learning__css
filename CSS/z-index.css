@@ -1,0 +1,27 @@
+.container
+{
+    position: relative;
+    margin-top: 100px;
+}
+div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 3px solid white;
+    border-radius: 100px;
+}
+.blue{
+    background-color: blue;
+    left:40px;
+    z-index: 1;
+}
+.red{
+    background-color: red;
+    left:80px;
+    z-index: 4;
+}
+.green{
+    background-color: green;
+    left:120px;
+    z-index: 3;
+}

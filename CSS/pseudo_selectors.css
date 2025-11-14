@@ -1,0 +1,48 @@
+h3{
+    color: black;
+    font-size: 50px;
+}
+h3:hover{
+    color: white;
+    background-color: black;
+    font-size: 70px;
+}
+
+.a_effect
+{
+    color: beige;
+    background-color: blue;
+}
+.a_effect:active{
+    color:black;
+    background-color: beige;
+    cursor: pointer;
+}
+.input{
+    font-size: 10px;
+    color:black;
+    background-color: beige;
+}
+.input:focus{
+    font-size: 10px;
+    color:white;
+    background-color: black;
+}
+a:visited{
+    font-size: 10px;
+    color: red;
+}
+
+p::first-letter{
+    color: red;
+}
+p::first-line{
+    color: blue;
+}
+
+::selection
+{
+    color: yellow;
+    background-color: red;
+
+} 

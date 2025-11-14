@@ -1,0 +1,61 @@
+
+h3{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.container
+{
+    
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+}
+
+.box
+{
+    
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    transition: transform 1s ease-in 500ms;
+     
+}
+.box1:hover
+{
+    transform:  translate(125px,125px);
+}
+.box2:hover
+{
+    transform:  translateX(125px);
+}
+.box3:hover
+{
+    transform:  translateY(125px);
+}
+.box4:hover
+{
+    transform: rotate(1080deg);
+}
+.box5:hover
+{
+    transform: skew(10deg,10deg);
+}
+.box6:hover
+{
+    transform: scale(1.5);
+}
+.box7:hover
+{
+    transform: scale(1.2) rotate(90deg);
+}

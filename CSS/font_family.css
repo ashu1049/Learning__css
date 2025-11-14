@@ -1,0 +1,18 @@
+p{
+    font-size: 20px;
+}
+
+.f_family1
+{
+    font-family: monospace;
+    font-weight: 800;
+    background-color: aqua;
+}
+.f_family2{
+    font-family: Times New Roman;
+    font-weight: 300;
+}
+.f_family3{
+font-family: Arial;
+    font-weight: 600;
+}
