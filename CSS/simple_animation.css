@@ -1,0 +1,27 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    border: 3px solid black;
+    -webkit-animation: moving;
+    -webkit-animation-delay: 5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+/* @keyframes moving{
+    0%{background-colur:red; left:0px; top: 0px;}
+    25%{background-color: yellow; left:300px; top: 0px;}
+    50%{background-color: green; left:300px; top: 300px;}
+    75%{background-color: blue; left:0px; top: 300px;}
+    100%{background-color: red; left:0px; top: 0px;}
+} */
+
+
+@keyframes moving{
+    0%{background-image:url('../Images/bird.jpg'); left:0px; top: 0px;}
+    25%{background-image: url('../Images/farm.jpg'); left:300px; top: 0px;}
+    50%{background-image: url('../Images/farm.jpg'); left:300px; top: 300px;}
+    75%{background-image: url('../Images/nature.jpg'); left:0px; top: 300px;}
+    100%{background-image: url('../Images/bird.jpg'); left:0px; top: 0px;}
+}
